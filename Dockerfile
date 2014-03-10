@@ -1,6 +1,6 @@
 FROM wnameless/xe-temp
 
-MAINTAINER Wei-Ming Wu <wnameless@gmail.com>
+MAINTAINER Alexei Ledenev <alexei.led@gmail.com>
 
 ADD chkconfig /sbin/chkconfig
 ADD init.ora /
