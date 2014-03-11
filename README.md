@@ -1,6 +1,16 @@
 docker-oracle-xe-11g
 ============================
 
+## Oracle XE - Dockerfile
+
+This repository contains a **Dockerfile** to create a docker container with Oracle Express Edition 11g Release 2
+
+This **Dockerfile** has been published as a [trusted build](https://index.docker.io/u/alexeiled/docker-oracle-xe-11g/) to the public [Docker Registry](https://index.docker.io/).
+
+
+### How-To: Install and Use
+
+
 ```
 docker pull alexeiled/docker-oracle-xe-11g
 ```
