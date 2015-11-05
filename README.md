@@ -17,7 +17,7 @@ docker pull alexeiled/docker-oracle-xe-11g
 
 Run with 22, 1521 and 8080 ports opened:
 ```
-docker run -d -p 49160:22 -p 49161:1521 -p 49162:8080 alexeiled/docker-oracle-xe-11g
+docker run -d -p 49160:22 -p 49161:1521 -p 49162:8080 alexeiled/docker-oracle-xe-11g --name=<containerName>
 ```
 
 Connect database with following setting:
